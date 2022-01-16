@@ -1,2 +1,4 @@
 .DS_Store
 *_temp.tex
+*.pdf
+*.gz

@@ -150,10 +150,10 @@
 	\setcounter{a}{0}
 	\setcounter{c}{150}
 	
-	\begin{tikzpicture}[scale=3]
-		\foreach \p/\t in {#1} {
+	\hlinefill\begin{tikzpicture}[scale=3]
+		\foreach \p/\t\t\t\t in {#1} {
 			\addtocounter{a}{1}
-			\bubble{\thea/2}{\theb}{\p/25}{\t}{1\p0}
+			\bubble{\thea/2}{\theb}{\p/25}{\t}{\t}{1\p0}
 		}
 	\end{tikzpicture}
 }
