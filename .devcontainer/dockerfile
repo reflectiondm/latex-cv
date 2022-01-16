@@ -1,0 +1,8 @@
+FROM qmcgaw/latexdevcontainer
+RUN tlmgr update --self
+RUN tlmgr install extsizes
+RUN tlmgr install moresize
+RUN tlmgr install raleway
+RUN tlmgr install xkeyval
+RUN tlmgr install fontawesome
+RUN tlmgr install pgf
